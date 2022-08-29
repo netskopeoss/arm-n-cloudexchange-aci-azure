@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetAddressPrefix": {
+      "value": "x.x.x.x/x"
+    },
+    "subnetAddressPrefix": {
+      "value": "x.x.x.x/x"
+    },
+    "trustedIP": {
+      "value": "x.x.x.x"
+    },
+    "acrLoginServer": {
+      "value": "xxxxxx"
+    },
+    "acrUserName": {
+      "value": "xxxxx"
+    },
+    "acrPassword": {
+      "value": "xxxxx"
+    },
+    "mongo-db-image": {
+      "value": "xxxx/xxxx"
+    },
+    "core-image": {
+      "value": "xxxx/xxxx"
+    },
+    "ui-image": {
+      "value": "xxxx/xxxx"
+    },
+    "rabbitmq-image": {
+      "value": "xxxx/xxxx"
+    },
+    "maintenancePassword": {
+      "value": "xxxxxx"
+    },
+    "jwtSecret": {
+      "value": "xxxxx"
+    }
+  }
+}
